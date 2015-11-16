@@ -99,7 +99,7 @@ TVector<ValType>::~TVector()
 template <class ValType> // доступ
 ValType& TVector<ValType>::operator[](int pos)
 {//+
-	if((pos > Size) || (pos > MAX_VECTOR_SIZE) || (pos < 0))
+	if((pos > Size) || (pos >= Size+StartIndex) || (pos < 0))
 		throw invalid_argument("out_of_range");
 	return pVector[pos-StartIndex];
 } /*-------------------------------------------------------------------------*/
