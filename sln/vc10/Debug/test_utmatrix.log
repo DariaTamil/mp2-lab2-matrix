@@ -1,0 +1,18 @@
+﻿Построение начато 16.11.2015 16:32:45.
+     1>Проект "C:\laba\lab2_dasha\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../gtest /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_tmatrix.cpp ..\..\test\test_tvector.cpp
+         test_tvector.cpp
+     1>c:\laba\lab2_dasha\mp2-lab2-matrix\gtest\gtest.h(51): warning C4005: _VARIADIC_MAX: изменение макроопределения
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstddef(397): см. предыдущее определение "_VARIADIC_MAX"
+     1>c:\laba\lab2_dasha\mp2-lab2-matrix\test\test_tvector.cpp(156): fatal error C1075: конец файла обнаружен ранее, чем левая фигурная скобка "{" в "c:\laba\lab2_dasha\mp2-lab2-matrix\include\utmatrix.h(201)"
+         test_tmatrix.cpp
+     1>c:\laba\lab2_dasha\mp2-lab2-matrix\gtest\gtest.h(51): warning C4005: _VARIADIC_MAX: изменение макроопределения
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstddef(397): см. предыдущее определение "_VARIADIC_MAX"
+     1>c:\laba\lab2_dasha\mp2-lab2-matrix\test\test_tmatrix.cpp(114): fatal error C1075: конец файла обнаружен ранее, чем левая фигурная скобка "{" в "c:\laba\lab2_dasha\mp2-lab2-matrix\include\utmatrix.h(201)"
+         Создание кода...
+     1>Построение проекта "C:\laba\lab2_dasha\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:03.22
